@@ -10,9 +10,9 @@ int main() {
 	int exit = 0;
 
 	initscr();
-    cbreak();
-    noecho();
-    nodelay(stdscr, TRUE);
+	cbreak();
+	noecho();
+	nodelay(stdscr, TRUE);
 	keypad(stdscr, TRUE);
 	curs_set(0); //hide cursor
 
@@ -45,7 +45,7 @@ int main() {
 		usleep(500000);
 		clear();
 	}
-    endwin();
+	endwin();
 	return 0;
 }
 
